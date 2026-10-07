@@ -1,0 +1,32 @@
+[gd_scene format=3 uid="uid://dkoyyefqp54yq"]
+
+[ext_resource type="Texture2D" uid="uid://cmv8cg3n5vx1o" path="res://Soul_Cage.png" id="1_rnyw2"]
+[ext_resource type="Script" uid="uid://bxrdcfpw1odwi" path="res://point_light_2d_2.gd" id="2_b57sq"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_b57sq"]
+size = Vector2(109, 181)
+
+[sub_resource type="Gradient" id="Gradient_xm50o"]
+offsets = PackedFloat32Array(0, 0.71165645)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_rnyw2"]
+gradient = SubResource("Gradient_xm50o")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[node name="CharacterBody2D" type="CharacterBody2D" unique_id=490371794]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=480952737]
+position = Vector2(74.5, 76.5)
+scale = Vector2(3.328125, 3.390625)
+texture = ExtResource("1_rnyw2")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1097410071]
+position = Vector2(75.5, 70.5)
+shape = SubResource("RectangleShape2D_b57sq")
+
+[node name="PointLight2D2" type="PointLight2D" parent="CollisionShape2D" unique_id=1990665497]
+position = Vector2(-0.5, -14.5)
+texture = SubResource("GradientTexture2D_rnyw2")
+script = ExtResource("2_b57sq")

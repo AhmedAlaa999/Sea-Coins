@@ -1,0 +1,19 @@
+[remap]
+
+importer="oggvorbisstr"
+type="AudioStreamOggVorbis"
+uid="uid://d2b0l68qjvg3i"
+path="res://.godot/imported/Beach Area.ogg-ec2a76a3e63748526d2fde5b64bb5956.oggvorbisstr"
+
+[deps]
+
+source_file="res://Beach Area.ogg"
+dest_files=["res://.godot/imported/Beach Area.ogg-ec2a76a3e63748526d2fde5b64bb5956.oggvorbisstr"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4

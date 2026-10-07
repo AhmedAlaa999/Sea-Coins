@@ -1,0 +1,17 @@
+[gd_scene format=3 uid="uid://ce1fduykajsp6"]
+
+[ext_resource type="Texture2D" uid="uid://cwh424hof8wpx" path="res://Monks_house.png" id="1_qv1tx"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_he13q"]
+size = Vector2(106, 115)
+
+[node name="MonkHouse" type="CharacterBody2D" unique_id=1600970522]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=685423010]
+position = Vector2(33, 33.5)
+scale = Vector2(2.03125, 2.046875)
+texture = ExtResource("1_qv1tx")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1312991962]
+position = Vector2(33, 32.5)
+shape = SubResource("RectangleShape2D_he13q")

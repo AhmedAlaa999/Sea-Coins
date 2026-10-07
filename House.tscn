@@ -1,0 +1,52 @@
+[gd_scene format=3 uid="uid://6b33lymfxw3x"]
+
+[ext_resource type="Texture2D" uid="uid://bjig6gtlkl0iu" path="res://Texture/Extra/clock_tower.png" id="1_xm50o"]
+[ext_resource type="Script" uid="uid://bxrdcfpw1odwi" path="res://point_light_2d_2.gd" id="2_wwt5c"]
+
+[sub_resource type="SpriteFrames" id="SpriteFrames_he13q"]
+animations = [{
+"frames": [{
+"duration": 1.0,
+"texture": ExtResource("1_xm50o")
+}],
+"loop": 1,
+"name": &"default",
+"speed": 5.0
+}]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_wwt5c"]
+size = Vector2(177, 188)
+
+[sub_resource type="Gradient" id="Gradient_xm50o"]
+offsets = PackedFloat32Array(0, 0.71165645)
+colors = PackedColorArray(1, 1, 1, 1, 0, 0, 0, 1)
+
+[sub_resource type="GradientTexture2D" id="GradientTexture2D_dv7cx"]
+gradient = SubResource("Gradient_xm50o")
+fill = 1
+fill_from = Vector2(0.5, 0.5)
+
+[node name="House" type="CharacterBody2D" unique_id=682232737]
+
+[node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=546922063]
+position = Vector2(81.75001, 29.00001)
+scale = Vector2(2.5664063, 2.53125)
+sprite_frames = SubResource("SpriteFrames_he13q")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1180200458]
+position = Vector2(80.5, 26)
+shape = SubResource("RectangleShape2D_wwt5c")
+
+[node name="PointLight2D" type="PointLight2D" parent="." unique_id=2009240004]
+position = Vector2(79, 15)
+texture = SubResource("GradientTexture2D_dv7cx")
+
+[node name="PointLight2D2" type="PointLight2D" parent="." unique_id=908473392]
+position = Vector2(111, 99)
+texture = SubResource("GradientTexture2D_dv7cx")
+script = ExtResource("2_wwt5c")
+
+[node name="PointLight2D2" type="PointLight2D" parent="PointLight2D2" unique_id=1058170748]
+position = Vector2(-61, 0)
+texture = SubResource("GradientTexture2D_dv7cx")
+script = ExtResource("2_wwt5c")
