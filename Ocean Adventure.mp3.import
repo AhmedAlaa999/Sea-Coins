@@ -1,0 +1,19 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+uid="uid://bkdjiq37ym7tn"
+path="res://.godot/imported/Ocean Adventure.mp3-0785cef87043a4ac988e673c953e0497.mp3str"
+
+[deps]
+
+source_file="res://Ocean Adventure.mp3"
+dest_files=["res://.godot/imported/Ocean Adventure.mp3-0785cef87043a4ac988e673c953e0497.mp3str"]
+
+[params]
+
+loop=true
+loop_offset=0.0
+bpm=0.0
+beat_count=0
+bar_beats=4
