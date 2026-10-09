@@ -16,15 +16,16 @@ Explore the map, find the coins, and collect all 11 of them to win the game. Kee
 Your mission is straightforward: collect all 11 coins in less than 40 seconds. Can you explore the map quickly enough and complete the challenge before time runs out?
 
 ##  Features
--Simple and accessible gameplay.
 
--Coin collection mechanics.
+-Coin counter.
 
 -Countdown timer with a 40-second time limit.
 
 -Win and lose conditions based on your progress.
 
 -Playable directly in your browser through itch.io.
+
+-Day and night system
 
 -Godot Engine
 
