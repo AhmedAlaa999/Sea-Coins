@@ -17,11 +17,17 @@ Your mission is straightforward: collect all 11 coins in less than 40 seconds. C
 
 ##  Features
 -Simple and accessible gameplay.
+
 -Coin collection mechanics.
+
 -Countdown timer with a 40-second time limit.
+
 -Win and lose conditions based on your progress.
+
 -Playable directly in your browser through itch.io.
+
 -Godot Engine
+
 -Gdscript
 
 # Pic
