@@ -1,6 +1,9 @@
 # Collect the Coins
+Collect the Coins is a simple yet entertaining game in which your primary goal is to collect all 11 coins that are scattered all over the map before time expires. You have just 40 seconds in which you can move through the area, look for the coins, and collect them all to win.
+As Collect the Coins is a game, it mainly involves simple rules of playing and quick actions on the part of the gamer to collect coins.
 
-A simple game where your goal is to **collect all the coins and win!**
+## Gameplay
+Explore the map, find the coins, and collect all 11 of them to win the game. Keep an eye on the countdown timer because you have a limited amount of time to finish your mission.
 
 ## How to Play
 
@@ -9,8 +12,17 @@ A simple game where your goal is to **collect all the coins and win!**
 - You have **40 seconds**.
 - If you don't collect all the coins before the timer reaches 0, **you lose!**
 
-### Goal
-**Collect all the coins before time runs out!**
+### Mission
+Your mission is straightforward: collect all 11 coins in less than 40 seconds. Can you explore the map quickly enough and complete the challenge before time runs out?
+
+##  Features
+-Simple and accessible gameplay.
+-Coin collection mechanics.
+-Countdown timer with a 40-second time limit.
+-Win and lose conditions based on your progress.
+-Playable directly in your browser through itch.io.
+-Godot Engine
+-Gdscript
 
 # Pic
 <img width="1366" height="768" alt="Screenshot (129)" src="https://github.com/user-attachments/assets/370b08d3-b131-42e5-8dcc-854fc753a6a7" />
